@@ -1,0 +1,17 @@
+# dependencies
+/node_modules
+
+# ides & editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+/ssl
+.vscode
+
+# extra files & misc
+.env
+package-lock.json

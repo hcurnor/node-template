@@ -1,7 +1,7 @@
 // .env file is necessary on project root level
-// if (require('dotenv').config().error) {
-//   throw '.env file is missing';
-// }
+if (require('dotenv').config().error) {
+  throw '.env file is missing';
+}
 
 const express = require('express'),
   app = express(),
